@@ -109,9 +109,9 @@
     <div id="login-box">
         <h2>Love Gate</h2>
         <div class="input-group">
-            <input type="text" id="inName" placeholder="Nama (KHIYAROTUN NIHLA)">
-            <input type="password" id="inPass" placeholder="Password (25022004)">
-            <input type="number" id="inAge" placeholder="Umur (22)">
+            <input type="text" id="inName" placeholder="Nama (Nama Lengkap Kamu Sayang)">
+            <input type="password" id="inPass" placeholder="Password (tanggal lahir lengkap sayang)">
+            <input type="number" id="inAge" placeholder="Umur (berapa hayo)">
         </div>
         <button onclick="checkAuth()" class="btn-login">Buka Kejutan ❤️</button>
     </div>
@@ -206,7 +206,7 @@
     </div>
 
     <script>
-        const AUTH = { n: "KHIYAROTUN NIHLA", p: "25022004", a: "22" };
+        const AUTH = { n: "KHIYAROTUN NIHLAH", p: "25022004", a: "22" };
 
         function checkAuth() {
             const n = document.getElementById('inName').value.toUpperCase();
@@ -255,7 +255,8 @@
         }
         
         // Interval dikurangi menjadi 150 agar butiran yang keluar makin deras (banyak)
-        setInterval(createIcons, 500);
+        setInterval(createIcons, 400);
     </script>
 </body>
 </html>
+
